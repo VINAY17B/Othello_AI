@@ -8,8 +8,10 @@ Welcome to the Othello Game! This is a classic board game implemented in JavaScr
 - **Play Modes**: Choose between Player vs Player and Player vs AI modes.
 - **AI Opponent**: Play against a simple AI that makes moves on your behalf.
 - **Game Rules**: Display the rules of the game in a modal.
+- <br/>
 
-Algorithm Details
+Algorithm Details:
+
 AI Algorithm
 The AI in this game uses a Minimax algorithm with Alpha-Beta pruning to decide the best move. Here’s a brief overview of how the algorithm works:
 
