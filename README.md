@@ -1,14 +1,16 @@
 # Othello_AI
 
+# Othello Game
 
-Welcome to the Othello Game! This is a classic board game implemented in JavaScript, HTML, and CSS. The game allows you to play Othello against another player or against an AI.
+Welcome to the Othello Game! This project is a classic board game implemented using HTML, CSS, JavaScript for the frontend, and Python with Flask for the backend. The game allows you to play Othello against another player or against an AI.
 
 ## Features
 
 - **Play Modes**: Choose between Player vs Player and Player vs AI modes.
 - **AI Opponent**: Play against a simple AI that makes moves on your behalf.
 - **Game Rules**: Display the rules of the game in a modal.
- <br/>
+- **Backend Integration**: Uses Flask to handle AI moves in Player vs AI mode.
+
 
 Algorithm Details:
 
