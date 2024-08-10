@@ -1,6 +1,6 @@
 # Othello_AI
 
-# Othello Game
+Othello Game
 
 Welcome to the Othello Game! This project is a classic board game implemented using HTML, CSS, JavaScript for the frontend, and Python with Flask for the backend. The game allows you to play Othello against another player or against an AI.
 
