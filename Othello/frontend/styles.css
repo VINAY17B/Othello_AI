@@ -1,0 +1,177 @@
+/* Ensure the modal is hidden initially */
+#rules-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top */
+}
+
+/* Styles for the modal content */
+#rules-content {
+    background: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+/* Heading in the modal */
+#rules-content h2 {
+    margin-top: 0;
+}
+
+/* List styles in the modal */
+#rules-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* List item styles */
+#rules-content li {
+    margin: 10px 0;
+}
+
+/* Close button styles */
+#close-rules {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Close button hover effect */
+#close-rules:hover {
+    background-color: #c0392b;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+/* Other elements' styles */
+#game-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#mode-selection {
+    margin-bottom: 20px;
+}
+
+#mode-selection button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #27ae60;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#mode-selection button:hover {
+    background-color: #2ecc71;
+}
+
+#board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 5px;
+    background-color: #16a085;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    background-color: #27ae60;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cell:hover {
+    background-color: #2ecc71;
+}
+
+.disc {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: #000;
+}
+
+.white {
+    background-color: #fff;
+}
+
+#rules-button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#rules-button:hover {
+    background-color: #3498db;
+}
+
+
+/* Existing styles */
+
+#title-container {
+    margin-bottom: 20px;
+}
+
+#game-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+}

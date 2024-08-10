@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Othello Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="title-container">
+        <h1 id="game-title">Othello Game</h1>
+    </div>
+    <div id="mode-selection">
+        <button id="player-vs-player">Player vs Player</button>
+        <button id="player-vs-ai">Player vs AI</button>
+    </div>
+    <div id="board-container" style="display: none;">
+        <div id="current-player">Current Player: Black</div>
+        <div id="board"></div>
+        <div id="winner"></div>
+    </div>
+    <button id="rules-button">Game Rules</button>
+    <div id="rules-modal" class="hidden">
+        <div id="rules-content">
+            <h2>Rules of Othello</h2>
+            <ul>
+                <li>The game is played on an 8x8 board.</li>
+                <li>Players take turns placing their discs on the board.</li>
+                <li>A move consists of placing a disc in a position that outflanks the opponent's discs.</li>
+                <li>Outflanked discs are flipped to the current player's color.</li>
+                <li>The game ends when no more moves are possible, and the player with the most discs on the board wins.</li>
+            </ul>
+            <button id="close-rules">Close</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
